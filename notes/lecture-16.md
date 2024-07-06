@@ -34,3 +34,15 @@ Watch Live On Youtube below:
 
 <a href="https://www.youtube.com/watch?v=2WJL19wDH68&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/2WJL19wDH68/0.jpg" width="750"
 alt="JS Engine Exposed, Google's V8 Architecture in JS Youtube Link"/></a>
+
+Difference between an Interpreter and Compiler -
+Interpreter => It actually executes the code line by line. While executing a line of code, it does not know, what gonna come in the next line. It is fast but efficieny is a concern.
+
+Compiler => Before executing a single line of code, it first scans the whole code and converts the code into an optimised one. Then it starts executing the optimised code. So, as a result, the compiler executes a code which is very fast and contains a lot of performance improvements.
+
+Interpreter -> FAST
+Compiler -> EFFICIENCY
+
+So, 
+JS is an interpreted language or compiled language ?
+- JS can act as both interpreted language or compiled language. It completely depends on JS Engine. Before during the old days, JS Engine(SpiderMonkey) supported only interpreted language. But nowadays, the modern JS Engines made the JS language both an interpreted and compiled type language, which is otherwise known as JIT(Just in Time) Compiled Language.
